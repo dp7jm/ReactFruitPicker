@@ -1,7 +1,7 @@
 import React from 'react';
 
 function choice(items){
-    return items[Math.floor(Math.random()* Array.length(items))];
+    return items[Math.floor(Math.random()*items.length)];
 
 }
 function remove(items, item){
